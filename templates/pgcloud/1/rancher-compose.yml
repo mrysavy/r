@@ -1,5 +1,6 @@
 .catalog:
   name: PgCloud
+  version: "v1.1"
   questions:
     - variable: "PG96_PORT"
       required: true
