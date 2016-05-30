@@ -1,0 +1,5 @@
+select version();
+python -c 'import urllib2; print urllib2.urlopen("http://rancher-metadata.rancher.internal/latest/self/container/name").read()'
+
+https://imagelayers.io/
+
