@@ -1,0 +1,16 @@
+.catalog:
+  name: PgCloud
+  questions:
+    - variable: "PG96_PORT"
+      required: true
+      type: "int"
+      default: 5436
+    - variable: "PG95_PORT"
+      required: true
+      type: "int"
+      default: 5435
+    - variable: "PG93_PORT"
+      required: true
+      type: "int"
+      default: 5433
+
