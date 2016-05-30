@@ -1,0 +1,4 @@
+immutable OS
+immutble APP
+automation - build, deploy, test, publish
+devops, iac
