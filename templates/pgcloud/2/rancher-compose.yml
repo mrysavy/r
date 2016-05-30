@@ -1,7 +1,7 @@
 .catalog:
   name: PgCloud
   Description: "Test PGCloud"
-  version: "v1.2"
+  version: "v1.3"
   questions:
     - variable: "PG96_PORT"
       required: true
@@ -18,5 +18,5 @@
     - variable: "STUDIO_PORT"
       required: true
       type: "int"
-      default: 8080
+      default: 9090
 
