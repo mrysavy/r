@@ -1,10 +1,13 @@
 pg96:
   image: postgres:9.6
-  ports: ${PG96_PORT}:5432
+  ports:
+    - "${PG96_PORT}:5432"
 pg95:
   image: postgres:9.5
-  ports: ${PG95_PORT}:5432
+  ports:
+    - "${PG95_PORT}:5432"
 pg93:
   image: postgres:9.3
-  ports: ${PG93_PORT}:5432
+  ports:
+    - "${PG93_PORT}:5432"
 
